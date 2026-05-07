@@ -102,7 +102,7 @@ function Footer() {
                             setDoubleClickTimes(doubleClickTimes + 1)
                         }
                     }}>
-                        © {new Date().getFullYear()} Powered by <a className='hover:underline' href="https://github.com/openRin/Rin" target="_blank">Rin</a>
+                        © {new Date().getFullYear()} Leiblog. All rights reserved <a className='hover:underline' href="https://github.com/bloglei/leiblog" target="_blank">Rin</a>
                     </span>
                     {config.getBoolean('rss') && <>
                         <Spliter />
